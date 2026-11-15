@@ -189,13 +189,21 @@ const PROJECT_DATA = {
 
   gallery: [
     { category: "exterior", title: "Sculptural Tower Architecture", desc: "Contemporary glass & stone facade with cantilevered decks", image: "assets/images/tower-facade.jpg" },
+    { category: "exterior", title: "Twilight Grand Facade", desc: "Warm architectural illumination reflecting on water features", image: "assets/images/gallery-ext-1.jpg" },
+    { category: "exterior", title: "Riverside Horizon Towers", desc: "High-rise towers rising amidst an 8.5-acre biophilic sanctuary", image: "assets/images/hero-architecture.jpg" },
+    { category: "exterior", title: "Botanical Water Court", desc: "Arrival plaza with reflecting ponds and mature canopies", image: "assets/images/project-overview.jpg" },
     { category: "interiors", title: "Expansive Living Salon", desc: "Italian marble flooring and seamless floor-to-ceiling glass", image: "assets/images/gallery-int-1.jpg" },
     { category: "interiors", title: "Presidential Master Suite", desc: "Plush ensuite retreat with walk-in closet & panoramic views", image: "assets/images/gallery-int-2.jpg" },
     { category: "interiors", title: "Designer Island Kitchen", desc: "European modular kitchen with quartz waterfall counter", image: "assets/images/gallery-int-3.jpg" },
-    { category: "amenities", title: "Sunset Infinity Pool", desc: "Submerged loungers and twilight reflection deck", image: "assets/images/gallery-amenity-1.jpg" },
-    { category: "amenities", title: "Zen Hydrotherapy Bath", desc: "Calming botanical bath suite crafted for holistic rejuvenation", image: "assets/images/gallery-amenity-2.jpg" },
+    { category: "interiors", title: "Sky Residence Dining Lounge", desc: "Formal dining salon opening seamlessly to private sundeck", image: "assets/images/config-3bhk.jpg" },
+    { category: "amenities", title: "Sunset Olympic Sky Lagoon", desc: "Submerged loungers and twilight reflection deck", image: "assets/images/gallery-amenity-1.jpg" },
+    { category: "amenities", title: "Zen Hydrotherapy Bath Suite", desc: "Calming botanical bath suite crafted for holistic rejuvenation", image: "assets/images/gallery-amenity-2.jpg" },
+    { category: "amenities", title: "Glasshouse Fitness Pavilion", desc: "Biophilic wellness center featuring Technogym equipment", image: "assets/images/amenity-gym.jpg" },
+    { category: "amenities", title: "Cedar Sauna & Spa Sanctuary", desc: "Thermal restoration chambers and hydrotherapy wellness", image: "assets/images/amenity-spa.jpg" },
     { category: "lifestyle", title: "Terrace Dining Experience", desc: "Alfresco evening entertaining overlooking riverfront canopies", image: "assets/images/gallery-lifestyle-1.jpg" },
-    { category: "exterior", title: "Twilight Grand Facade", desc: "Warm architectural illumination reflecting on the water features", image: "assets/images/gallery-ext-1.jpg" }
+    { category: "lifestyle", title: "Botanical Riverfront Walk", desc: "1.2 km riverside nature trail and aromatic herbarium", image: "assets/images/amenity-greens.jpg" },
+    { category: "lifestyle", title: "The VIP Resident Lounge", desc: "Bespoke seating, curated art library, and private barista bar", image: "assets/images/amenity-clubhouse.jpg" },
+    { category: "lifestyle", title: "Private Dolby Atmos Cinema", desc: "Intimate 24-seater acoustically isolated screening theatre", image: "assets/images/amenity-theater.jpg" }
   ],
 
   location: {

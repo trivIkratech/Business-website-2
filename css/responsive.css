@@ -171,13 +171,11 @@
   /* Gallery Grid */
   .gallery-masonry-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
   }
 
-  .gallery-item,
-  .gallery-item.col-span-6,
-  .gallery-item.col-span-8 {
-    grid-column: span 1 !important;
-    aspect-ratio: 1 / 1;
+  .gallery-item {
+    aspect-ratio: 16 / 11;
   }
 
   /* Footer */

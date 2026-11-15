@@ -1308,8 +1308,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery-masonry-grid {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
 }
 
 .gallery-item {
@@ -1318,17 +1318,9 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   background-color: var(--color-forest-dark);
   cursor: pointer;
-  aspect-ratio: 4 / 3;
-  grid-column: span 4;
+  aspect-ratio: 16 / 11;
+  width: 100%;
   transition: all var(--transition-smooth);
-}
-
-.gallery-item.col-span-6 {
-  grid-column: span 6;
-}
-
-.gallery-item.col-span-8 {
-  grid-column: span 8;
 }
 
 .gallery-item img {
@@ -1345,30 +1337,32 @@ h1, h2, h3, h4, h5, h6 {
 .gallery-item-hover-caption {
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, transparent 40%, rgba(36, 54, 46, 0.9) 100%);
+  background: linear-gradient(180deg, transparent 40%, rgba(24, 38, 32, 0.92) 100%);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   padding: 1.5rem;
-  opacity: 0;
-  transition: opacity var(--transition-fast);
+  opacity: 1;
+  transition: background var(--transition-fast);
 }
 
 .gallery-item:hover .gallery-item-hover-caption {
-  opacity: 1;
+  background: linear-gradient(180deg, rgba(24, 38, 32, 0.2) 0%, rgba(24, 38, 32, 0.96) 100%);
 }
 
 .gallery-hover-title {
   font-size: 1.15rem;
   font-weight: 700;
   color: var(--color-white);
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.25;
 }
 
 .gallery-hover-desc {
   font-size: 0.8125rem;
   color: var(--color-sage);
   margin: 0;
+  line-height: 1.4;
 }
 
 /* ==========================================================================

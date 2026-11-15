@@ -86,6 +86,7 @@
       const itemCat = item.getAttribute('data-category');
       if (category === 'all' || itemCat === category) {
         item.style.display = 'block';
+        item.classList.add('is-revealed');
       } else {
         item.style.display = 'none';
       }

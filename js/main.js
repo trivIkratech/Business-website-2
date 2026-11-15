@@ -245,7 +245,42 @@
   }
 
   /**
-   * 7. FAQ Accordion
+   * 7. Location Category Filter
+   */
+  function initLocationFilter() {
+    const filterBtns = document.querySelectorAll('.loc-filter-btn');
+    const cards = document.querySelectorAll('.loc-destination-card');
+    const countBadge = document.getElementById('locItemsCount');
+
+    if (!filterBtns.length || !cards.length) return;
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.getAttribute('data-loc-filter') || 'all';
+        let visibleCount = 0;
+
+        cards.forEach(card => {
+          const cat = card.getAttribute('data-category');
+          if (filter === 'all' || cat === filter) {
+            card.style.display = 'flex';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        if (countBadge) {
+          countBadge.textContent = `${visibleCount} Destination${visibleCount === 1 ? '' : 's'}`;
+        }
+      });
+    });
+  }
+
+  /**
+   * 8. FAQ Accordion
    */
   function initFaqAccordion() {
     const faqItems = document.querySelectorAll('.faq-item');

@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="100%" height="100%" style="background:#F5F3EA; font-family:'Plus Jakarta Sans', Inter, sans-serif;">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E2DEC9" stroke-width="0.7" opacity="0.6"/>
+    </pattern>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="3" dy="5" stdDeviation="6" flood-color="#30332F" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background Grid -->
+  <rect width="1000" height="700" fill="#F5F3EA"/>
+  <rect width="1000" height="700" fill="url(#grid)"/>
+
+  <!-- Site Boundary Outer Line -->
+  <polygon points="60,60 940,60 940,640 60,640" fill="none" stroke="#344D43" stroke-width="2.5" stroke-dasharray="8 4"/>
+
+  <!-- Riverfront Promenade Zone (North) -->
+  <path d="M60,60 Q 500,90 940,60 L940,110 Q 500,135 60,110 Z" fill="#A8B9A0" opacity="0.35"/>
+  <text x="500" y="92" text-anchor="middle" fill="#344D43" font-size="12" font-weight="700" letter-spacing="3">SERENE MULA-MUTHA RIVERFRONT PROMENADE &amp; BIO-SWALE</text>
+
+  <!-- Central Landscaped Lawn & Zen Courtyard -->
+  <path d="M220,180 C 400,160 600,160 780,180 C 820,350 820,440 780,520 C 600,540 400,540 220,520 C 180,440 180,350 220,180 Z" fill="#E8ECE5" stroke="#A8B9A0" stroke-width="1.5"/>
+
+  <!-- Olympic Infinity Lagoon Pool -->
+  <g filter="url(#shadow)">
+    <rect x="420" y="300" width="160" height="80" rx="20" fill="#789A92" stroke="#344D43" stroke-width="1.5"/>
+    <rect x="430" y="310" width="140" height="60" rx="15" fill="#8EABA4" opacity="0.9"/>
+    <text x="500" y="345" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="600" letter-spacing="1">OLYMPIC SKY LAGOON</text>
+  </g>
+
+  <!-- Central Pavilion / Clubhouse -->
+  <g filter="url(#shadow)">
+    <rect x="440" y="210" width="120" height="65" rx="8" fill="#344D43"/>
+    <text x="500" y="240" text-anchor="middle" fill="#F5F3EA" font-size="11" font-weight="700" letter-spacing="1">VIP CLUBHOUSE</text>
+    <text x="500" y="258" text-anchor="middle" fill="#D6A47C" font-size="9" letter-spacing="0.5">THE GLASS SANCTUARY</text>
+  </g>
+
+  <!-- Tower A: Verdant Solitaire -->
+  <g filter="url(#shadow)">
+    <polygon points="120,200 240,170 270,310 150,340" fill="#FFFFFF" stroke="#344D43" stroke-width="2"/>
+    <polygon points="135,210 230,185 255,295 160,320" fill="#F5F3EA" stroke="#D6A47C" stroke-width="1"/>
+    <text x="195" y="250" text-anchor="middle" fill="#30332F" font-size="13" font-weight="800">TOWER A</text>
+    <text x="195" y="268" text-anchor="middle" fill="#344D43" font-size="10" font-weight="600">SOLITAIRE</text>
+    <text x="195" y="284" text-anchor="middle" fill="#717568" font-size="9">3 &amp; 3.5 BHK | G+34</text>
+  </g>
+
+  <!-- Tower B: Verdant Horizon -->
+  <g filter="url(#shadow)">
+    <polygon points="730,170 850,200 820,340 700,310" fill="#FFFFFF" stroke="#344D43" stroke-width="2"/>
+    <polygon points="740,185 835,210 810,320 715,295" fill="#F5F3EA" stroke="#D6A47C" stroke-width="1"/>
+    <text x="770" y="250" text-anchor="middle" fill="#30332F" font-size="13" font-weight="800">TOWER B</text>
+    <text x="770" y="268" text-anchor="middle" fill="#344D43" font-size="10" font-weight="600">HORIZON</text>
+    <text x="770" y="284" text-anchor="middle" fill="#717568" font-size="9">2.5 &amp; 3 BHK | G+34</text>
+  </g>
+
+  <!-- Tower C: Verdant Signature (Penthouses) -->
+  <g filter="url(#shadow)">
+    <polygon points="400,430 600,430 580,540 420,540" fill="#344D43" stroke="#D6A47C" stroke-width="2.5"/>
+    <polygon points="415,445 585,445 568,525 432,525" fill="#24362E"/>
+    <text x="500" y="478" text-anchor="middle" fill="#FFFFFF" font-size="14" font-weight="800" letter-spacing="1">TOWER C</text>
+    <text x="500" y="496" text-anchor="middle" fill="#D6A47C" font-size="11" font-weight="700">THE SIGNATURE PENTHOUSES</text>
+    <text x="500" y="512" text-anchor="middle" fill="#A8B9A0" font-size="9">4.5 BHK SKY SUITES | G+37</text>
+  </g>
+
+  <!-- Sports Arena (East) -->
+  <g filter="url(#shadow)">
+    <rect x="710" y="420" width="130" height="90" rx="6" fill="#A8B9A0" stroke="#344D43" stroke-width="1.5"/>
+    <line x1="775" y1="420" x2="775" y2="510" stroke="#FFFFFF" stroke-width="1.5"/>
+    <circle cx="775" cy="465" r="16" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+    <text x="775" y="469" text-anchor="middle" fill="#344D43" font-size="10" font-weight="700">TENNIS &amp; PADEL</text>
+  </g>
+
+  <!-- Kids Forest Play Park (West) -->
+  <g filter="url(#shadow)">
+    <rect x="150" y="420" width="130" height="90" rx="6" fill="#D6A47C" opacity="0.3" stroke="#D6A47C" stroke-width="1.5"/>
+    <text x="215" y="460" text-anchor="middle" fill="#30332F" font-size="11" font-weight="700">BIOPHILIC</text>
+    <text x="215" y="476" text-anchor="middle" fill="#30332F" font-size="10">KIDS ENCLAVE</text>
+  </g>
+
+  <!-- Grand Ceremonial Entrance Plaza (South) -->
+  <path d="M 400,640 L 440,580 L 560,580 L 600,640 Z" fill="#D6A47C" opacity="0.4"/>
+  <rect x="460" y="590" width="80" height="30" rx="4" fill="#344D43"/>
+  <text x="500" y="609" text-anchor="middle" fill="#F5F3EA" font-size="10" font-weight="700" letter-spacing="1">GRAND ENTRY PLAZA</text>
+  <line x1="500" y1="640" x2="500" y2="620" stroke="#344D43" stroke-width="3"/>
+
+  <!-- Compass Rose (Top Right) -->
+  <g transform="translate(890, 110)">
+    <circle cx="0" cy="0" r="26" fill="#FFFFFF" stroke="#344D43" stroke-width="1.5"/>
+    <polygon points="0,-22 5,-4 0,0 -5,-4" fill="#344D43"/>
+    <polygon points="0,22 5,4 0,0 -5,4" fill="#A8B9A0"/>
+    <text x="0" y="-25" text-anchor="middle" fill="#344D43" font-size="11" font-weight="800">N</text>
+  </g>
+
+  <!-- Title Badge (Top Left) -->
+  <g transform="translate(80, 85)">
+    <rect x="0" y="0" width="260" height="58" rx="6" fill="#FFFFFF" stroke="#E2DEC9" filter="url(#shadow)"/>
+    <text x="16" y="24" fill="#344D43" font-size="13" font-weight="800" letter-spacing="1">VERDANT MASTER PLAN</text>
+    <text x="16" y="44" fill="#717568" font-size="10">8.5 ACRE BIOPHILIC SANCTUARY • PUNE</text>
+  </g>
+
+  <!-- Legend Bottom Left -->
+  <g transform="translate(80, 560)">
+    <rect x="0" y="0" width="210" height="65" rx="6" fill="#FFFFFF" stroke="#E2DEC9" filter="url(#shadow)"/>
+    <circle cx="20" cy="20" r="5" fill="#344D43"/>
+    <text x="35" y="23" fill="#30332F" font-size="10">Residential Towers (G+34 to 37)</text>
+    <circle cx="20" cy="38" r="5" fill="#789A92"/>
+    <text x="35" y="41" fill="#30332F" font-size="10">Olympic Water Lagoon &amp; Pool</text>
+    <circle cx="20" cy="54" r="5" fill="#A8B9A0"/>
+    <text x="35" y="57" fill="#30332F" font-size="10">Botanical Grounds &amp; Sports Zone</text>
+  </g>
+</svg>

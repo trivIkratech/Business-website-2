@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://verdantterraces.com/sitemap.xml
-
+Sitemap: https://aureliaresidences.com/sitemap.xml

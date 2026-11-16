@@ -50,7 +50,7 @@
     const brochureBtns = document.querySelectorAll('.dynamic-brochure-link');
     brochureBtns.forEach(btn => {
       btn.href = data.brand.brochureUrl;
-      btn.download = "The-Verdant-Terraces-Brochure.pdf";
+      btn.download = "Aurelia-Riverfront-Residences-Brochure.pdf";
     });
 
     // Email links

@@ -101,7 +101,7 @@
         phone: phoneInput.value.trim(),
         configuration: configSelect ? configSelect.value : 'General Enquiry',
         preferredSchedule: form.querySelector('[name="schedule"]') ? form.querySelector('[name="schedule"]').value : 'As soon as possible',
-        project: window.PROJECT_DATA?.brand?.name || "The Verdant Terraces",
+        project: window.PROJECT_DATA?.brand?.name || "Aurelia Riverfront Residences",
         formType: form.getAttribute('data-form-purpose') || 'enquiry',
         timestamp: new Date().toISOString()
       };
@@ -138,7 +138,7 @@
             setTimeout(() => {
               const link = document.createElement('a');
               link.href = brochureUrl;
-              link.download = "The-Verdant-Terraces-Brochure.pdf";
+              link.download = "Aurelia-Riverfront-Residences-Brochure.pdf";
               link.target = "_blank";
               document.body.appendChild(link);
               link.click();

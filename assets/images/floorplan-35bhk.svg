@@ -13,7 +13,7 @@
   <rect x="36" y="36" width="728" height="528" fill="none" stroke="#D6A47C" stroke-width="0.8"/>
 
   <!-- Header Header Information -->
-  <text x="60" y="75" fill="#344D43" font-size="20" font-weight="800" letter-spacing="1">VERDANT RESIDENCES</text>
+  <text x="60" y="75" fill="#344D43" font-size="20" font-weight="800" letter-spacing="1">AURELIA RESIDENCES</text>
   <text x="60" y="98" fill="#D6A47C" font-size="14" font-weight="700">3.5 BHK SKY SANCTUARY</text>
   
   <line x1="60" y1="112" x2="740" y2="112" stroke="#E2DEC9" stroke-width="1.5"/>

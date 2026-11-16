@@ -1,5 +1,5 @@
 /**
- * THE VERDANT TERRACES - CENTRAL PROJECT DATA CONFIGURATION
+ * AURELIA RIVERFRONT RESIDENCES - CENTRAL PROJECT DATA CONFIGURATION
  * 
  * All project specifications, branding, pricing, amenities, gallery images,
  * location connectivity, and developer information are configured here.
@@ -8,10 +8,10 @@
 
 const PROJECT_DATA = {
   brand: {
-    name: "The Verdant Terraces",
+    name: "Aurelia Riverfront Residences",
     tagline: "Ultra-Luxury Riverside Residences & Sky Penthouses",
     locationShort: "Upper Koregaon Park, Pune",
-    fullAddress: "The Verdant Terraces, Riverside Boulevard, Mundhwa-Magarpatta Road, Upper Koregaon Park, Pune, Maharashtra 411036",
+    fullAddress: "Aurelia Riverfront Residences, Riverside Boulevard, Mundhwa-Magarpatta Road, Upper Koregaon Park, Pune, Maharashtra 411036",
     developer: "Mantra Curated Living",
     reraNumber: "P52100054321",
     reraWebsite: "https://maharera.mahaonline.gov.in",
@@ -23,8 +23,8 @@ const PROJECT_DATA = {
     phoneDisplay: "+91 98230 00000",
     phoneTel: "+919823000000",
     whatsappNumber: "919823000000",
-    whatsappDefaultText: "Hello, I am interested in The Verdant Terraces at Upper Koregaon Park. Please share floor plans, pricing, and schedule a private site visit.",
-    email: "concierge@verdantterraces.com",
+    whatsappDefaultText: "Hello, I am interested in Aurelia Riverfront Residences at Upper Koregaon Park. Please share floor plans, pricing, and schedule a private site visit.",
+    email: "concierge@aureliaresidences.com",
     salesOfficeHours: "Monday to Sunday: 10:00 AM – 7:30 PM",
     formEndpoint: "https://httpbin.org/post" // Configurable form submission endpoint
   },
@@ -42,8 +42,8 @@ const PROJECT_DATA = {
     kicker: "THE PHILOSOPHY",
     title: "A Masterpiece Designed For Living in Harmony",
     paragraphs: [
-      "Nestled along the tranquil waterfront of Upper Koregaon Park, The Verdant Terraces is a collection of signature residential towers rising amidst an 8.5-acre landscaped sanctuary. Designed in collaboration with international master-architects, every residence is shaped around natural daylight, cross-ventilation, and unbroken panoramic views.",
-      "With only three bespoke residences per floor, private high-speed elevator access, and generous 10.5-foot finished ceiling heights, Verdant Terraces redefines quiet luxury in Pune's most dynamic residential enclave."
+      "Nestled along the tranquil waterfront of Upper Koregaon Park, Aurelia Riverfront Residences is a collection of signature residential towers rising amidst an 8.5-acre landscaped sanctuary. Designed in collaboration with international master-architects, every residence is shaped around natural daylight, cross-ventilation, and unbroken panoramic views.",
+      "With only three bespoke residences per floor, private high-speed elevator access, and generous 10.5-foot finished ceiling heights, Aurelia redefines quiet luxury in Pune's most dynamic residential enclave."
     ],
     primaryImage: "assets/images/project-overview.jpg",
     detailImage: "assets/images/architecture-detail.jpg"
@@ -209,7 +209,7 @@ const PROJECT_DATA = {
   location: {
     tagline: "CONVERGENCE OF HIGH LIFE & VIBRANT URBANITY",
     title: "Upper Koregaon Park & Magarpatta Riverside",
-    description: "Verdant Terraces occupies a strategic riverfront position connecting Koregaon Park's boutique dining with Magarpatta's thriving commercial IT hubs and the Pune-Nagar corridor.",
+    description: "Aurelia Riverfront Residences occupies a strategic riverfront position connecting Koregaon Park's boutique dining with Magarpatta's thriving commercial IT hubs and the Pune-Nagar corridor.",
     mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.187311197825!2d73.91689107593671!3d18.52042076918239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c19e59d2a233%3A0xb30e3713028fa2d8!2sMundhwa%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
     landmarks: [
       { category: "Business Hubs", items: [
@@ -251,16 +251,16 @@ const PROJECT_DATA = {
 
   faqs: [
     {
-      q: "Where is The Verdant Terraces located and how is the connectivity?",
+      q: "Where is Aurelia Riverfront Residences located and how is the connectivity?",
       a: "The project is strategically positioned on the prime Mundhwa-Magarpatta riverfront boulevard in Upper Koregaon Park. It offers seamless dual access to Koregaon Park's cultural and dining avenues (8 mins) and the major IT corridors of Magarpatta Cybercity (5 mins) and Kharadi EON IT Park (10 mins)."
     },
     {
       q: "What residential configurations and carpet areas are available?",
-      a: "The Verdant Terraces offers four curated luxury residences: 2.5 BHK Royale Suites (1,180 sq. ft.), 3 BHK Imperial Residences (1,560 sq. ft.), 3.5 BHK Sky Sanctuaries (1,890 sq. ft.), and limited 4.5 BHK Penthouse Pavilions (2,450 sq. ft.). Every layout includes private sky decks with finished 10.5-ft ceiling heights."
+      a: "Aurelia Riverfront Residences offers four curated luxury residences: 2.5 BHK Royale Suites (1,180 sq. ft.), 3 BHK Imperial Residences (1,560 sq. ft.), 3.5 BHK Sky Sanctuaries (1,890 sq. ft.), and limited 4.5 BHK Penthouse Pavilions (2,450 sq. ft.). Every layout includes private sky decks with finished 10.5-ft ceiling heights."
     },
     {
       q: "Is the project MahaRERA approved and what is the registration number?",
-      a: "Yes, The Verdant Terraces is fully compliant and registered under MahaRERA with registration number P52100054321. Complete documents, approvals, and quarterly progress updates can be reviewed on the official MahaRERA portal (maharera.mahaonline.gov.in)."
+      a: "Yes, Aurelia Riverfront Residences is fully compliant and registered under MahaRERA with registration number P52100054321. Complete documents, approvals, and quarterly progress updates can be reviewed on the official MahaRERA portal (maharera.mahaonline.gov.in)."
     },
     {
       q: "What are the handover timelines and construction milestones?",

@@ -1,6 +1,6 @@
-# The Verdant Terraces — Ultra-Luxury Real Estate Website
+# Aurelia Riverfront Residences — Ultra-Luxury Real Estate Website
 
-A bespoke, production-ready luxury real estate property website developed for **The Verdant Terraces** (Upper Koregaon Park, Pune) by **Mantra Curated Living**.
+A bespoke, production-ready luxury real estate property website developed for **Aurelia Riverfront Residences** (Upper Koregaon Park, Pune) by **Mantra Curated Living**.
 
 Designed with a **Fresh Contemporary Luxury** architectural aesthetic: asymmetric layouts, editorial typography, natural earth & forest tones, high-resolution imagery, accessible native HTML5 modals, interactive configuration selectors, responsive master & floor plan viewers, and an actual downloadable multi-page PDF brochure.
 
